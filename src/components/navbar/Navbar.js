@@ -1,6 +1,5 @@
 import React from "react";
 import styles from "./Navbar.module.scss";
-import { Search } from "react-feather";
 import { Link } from "react-router-dom";
 
 const Navbar = () => {

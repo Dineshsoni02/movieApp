@@ -10,54 +10,47 @@
   backdrop-filter: blur(20px) saturate(180%);
   background-color: rgba(22, 21, 21, 0.79);
   .logo {
-    a{
-
+    a {
       font-weight: 600;
       color: var(--gold-color);
       font-size: 1.3rem;
       cursor: pointer;
-      letter-spacing: .18rem;
-
+      letter-spacing: 0.18rem;
     }
   }
-  .right {
-    width: 22%;
+
+  .searchBar {
     display: flex;
-    justify-content: space-between;
     align-items: center;
-
-    .searchBar {
-      display: flex;
-      align-items: center;
-      position: relative;
-      input {
-        border: none;
-        outline: none;
-        padding: 8px 15px;
-        font-size: 1rem;
-        border: 1px solid var(--text-color);
-        border-radius: 6px;
-      }
-      svg {
-        color: #222;
-        height: 20px;
-        width: 20px;
-        position: absolute;
-        right: 3px;
-        top: 50%;
-        transform: translateY(-50%);
-        cursor: pointer;
-      }
+    position: relative;
+    input {
+      border: none;
+      outline: none;
+      padding: 8px 15px;
+      font-size: 1rem;
+      border: 1px solid var(--text-color);
+      border-radius: 6px;
     }
-    .explore {
-      a{
-        color: var(--text-color);
-        font-weight: 600;
-        text-decoration: none;
+    svg {
+      color: #222;
+      height: 20px;
+      width: 20px;
+      position: absolute;
+      right: 3px;
+      top: 50%;
+      transform: translateY(-50%);
+      cursor: pointer;
+    }
+  }
+  .explore {
+    flex: .1;
+    a {
+      color: var(--text-color);
+      font-weight: 600;
+      text-decoration: none;
 
-        &:hover {
-          color: #dbd9d9;
-        }
+      &:hover {
+        color: #dbd9d9;
       }
     }
   }

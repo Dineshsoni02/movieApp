@@ -9,15 +9,9 @@ const Navbar = () => {
       <div className={styles.logo}>
         <Link to="/">Moviemania</Link>
       </div>
-      <div className={styles.right}>
-        <div className={styles.searchBar}>
-          <input type="text" placeholder="Search movies" />
-          <Search />
-        </div>
         <div className={styles.explore}>
           <Link to="/explore"> Explore</Link>
         </div>
-      </div>
     </div>
   );
 };
